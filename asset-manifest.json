@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Innovate/static/css/main.d9e17ed4.css",
+    "main.js": "/Innovate/static/js/main.88c0bd5e.js",
+    "static/js/787.2ac33a4c.chunk.js": "/Innovate/static/js/787.2ac33a4c.chunk.js",
+    "index.html": "/Innovate/index.html",
+    "main.d9e17ed4.css.map": "/Innovate/static/css/main.d9e17ed4.css.map",
+    "main.88c0bd5e.js.map": "/Innovate/static/js/main.88c0bd5e.js.map",
+    "787.2ac33a4c.chunk.js.map": "/Innovate/static/js/787.2ac33a4c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9e17ed4.css",
+    "static/js/main.88c0bd5e.js"
+  ]
+}
