@@ -2,6 +2,9 @@ import React from 'react';
 import Logo from './Logo';
 import "./styles/FSection.css"
 import Circle from './Circles';
+import CollabSVG from './SVG/Collab';
+import GrowthSVG from './SVG/Growth';
+import IdeaSVG from "./SVG/Idea"
 const FSection = () => {
     return (<>
         <section className='FSECTION'>
@@ -40,10 +43,24 @@ const FSection = () => {
             <Circle classNumber="fCrcle" />
             <Circle classNumber="sCrcle" />
             <div className='DisplayMiddle'>
-                <div className="GlassDiv FG"></div>
-                <div className="GlassDiv SG"></div>
-                <div className="GlassDiv TG"></div>
-
+                <div className="GlassDiv FG">
+                    <CollabSVG widhei={90} />
+                    <p>
+                        Collaborate from anywhere, anytime
+                    </p>
+                </div>
+                <div className="GlassDiv SG">
+                    <IdeaSVG heiwid={90} />
+                    <p>
+                        Transform your ideas into reality
+                    </p>
+                </div>
+                <div className="GlassDiv TG">
+                    <GrowthSVG heiwid={90} />
+                    <p>
+                        Invest in your future success
+                    </p>
+                </div>
             </div>
         </section>
     </>);

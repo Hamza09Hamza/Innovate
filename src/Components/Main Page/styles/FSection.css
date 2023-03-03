@@ -9,14 +9,18 @@ body {
     font-family: arial;
     position: relative;
     overflow-x: hidden;
+    height: 200vh;
+    margin: 0px;
+    padding: 0px;
 }
-
 
 .FSECTION {
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    position: relative;
+    background-color: rgb(252, 252, 252);
 }
 
 .navbar {
@@ -177,8 +181,17 @@ body {
     -webkit-backdrop-filter: blur(19.5px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
+.GlassDiv>p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #8F00FF;
+}
 
 .FG {
     top: 2%;
@@ -272,18 +285,3 @@ body {
         z-index: 3;
     }
 }
-
-/* .FG {
-    top: 2%;
-    right: 25%;
-}
-
-.SG {
-    top: 8%;
-    left: 25%;
-}
-
-.TG {
-    bottom: 2%;
-    left: 43%;
-} */
