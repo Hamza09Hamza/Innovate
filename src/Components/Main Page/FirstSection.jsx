@@ -1,7 +1,7 @@
 import React from 'react';
-import Logo from './Logo';
+import Logo from '../../Logo';
 import "./styles/FSection.css"
-import Circle from './Circles';
+import Circle from '../../Circles';
 import CollabSVG from './SVG/Collab';
 import GrowthSVG from './SVG/Growth';
 import IdeaSVG from "./SVG/Idea"

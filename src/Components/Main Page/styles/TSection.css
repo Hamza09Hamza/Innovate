@@ -1,0 +1,84 @@
+.TSection {
+    height: 100vh;
+    padding-top: 20vh;
+    background-image: linear-gradient(to bottom, #8F00FF 20%, #ffffff);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TSection>h3 {
+    font-weight: 500;
+    font-size: 2.3rem;
+    color: #ffffff;
+    width: 30ch;
+}
+
+.TSection>h3>span {
+    color: #2f0053;
+    font-weight: 700;
+}
+
+.JoiningDIV {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    justify-content: space-around;
+}
+
+.JoiningDIV>div {
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.JoiningDIV>div>h3 {
+    width: 20ch;
+    color: #8F00FF;
+}
+
+.JoiningDIV>div>button {
+    padding: 0.9rem 1.4rem;
+    border: none;
+    border-radius: 12rem;
+    font-size: 1.07rem;
+    background-color: #8F00FF;
+    color: white;
+    font-weight: 500;
+    margin-top: 2rem;
+    transition: all 0.5s ease;
+}
+
+.S {
+    margin-top: 7rem;
+
+}
+
+.JoiningDIV>.S>button {
+    background-color: #fff;
+    color: #8F00FF;
+    border-color: #9000ff;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+.JoiningDIV>div>button:hover {
+    background-color: #b85aff;
+}
+
+.JoiningDIV>.S>button:hover {
+    background-color: #b85aff;
+    color: white;
+
+}
