@@ -4,7 +4,7 @@ import FacebookLogo from './SVG/Facebook.jsx';
 import GmailLogo from './SVG/Gmail.jsx';
 import PhoneLogo from './SVG/Phone.jsx';
 import TwitterLogo from './SVG/Twitter.jsx';
-import "./styles/Footer.css"
+import "./styles/Home.css"
 const Footer = () => {
     return (<>
         <footer>

@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.MainSign {
+    background-color: #c06eff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.InfoSection {
+    height: max-content;
+    border-radius: 50px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.Card {
+    height: max-content;
+    border-radius: 50px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.Card>h1 {
+    font-size: 1.7rem;
+    color: #9000ff;
+
+}
+
+.TypeAccountDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+
+}
+
+.account {
+    background-color: #fbfbfb;
+    border-radius: 50px;
+    padding: 0.7rem 1.2rem;
+    font-size: 1.1rem;
+    color: #9000ff;
+    border-color: #9000ff;
+    filter: brightness(1.2);
+    cursor: pointer;
+    border-style: solid;
+    transition: all 0.7s;
+
+}
+
+.account:hover {
+    background-color: #f1c3fc;
+}
+
+.selectedType {
+    background-color: #9000ff;
+    color: #fff;
+    border: none;
+    transition: all 0.7s;
+}
+
+.Infodiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    flex-direction: column;
+}
+
+.Infodiv>div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 1rem;
+}
+
+input {
+    padding: 0.7rem 1.3rem;
+    font-size: 1.1rem;
+    border-color: #9000ff;
+    margin: 01rem 0;
+    width: 90%;
+    border-style: solid;
+    border-radius: 20px;
+    transition: all 0.7s;
+}
+
+input::placeholder {
+    font-size: 0.95rem;
+    color: #80608b;
+}
+
+input:focus {
+    outline: none;
+    border-color: #d7a3ff;
+}
+
+.GeneralDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 4rem;
+}
+
+.GeneralDiv>h2 {
+    width: 70%;
+    text-align: left;
+}
+
+.ContsubBTN {
+    background-color: #8700ff;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.7rem 1.1rem;
+    border: none;
+    border-radius: 20px;
+}
+
+.GuestBTN {
+    font-size: 1.1rem;
+    padding: 0.7rem 1.1rem;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: #8700ff;
+    border: 1px #8700ff solid;
+}
+
+.GuestBTN:hover {
+    background-color: rgb(246, 238, 255);
+    color: #961eff;
+}
+
+.ContsubBTN:hover {
+    color: rgb(255, 255, 255);
+    background-color: #9f30ff;
+}
+
+button {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+
+
+.BtnsDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.BtnsDiv>hr {
+    width: 20%;
+    margin: 1rem 0;
+}
+
+.Infodiv>.EmailorPhone {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.Card>p>a {
+    color: #8700ff;
+    transition: all 0.7s;
+}
+
+.Card>p>a:hover {
+    color: #b868fd;
+}

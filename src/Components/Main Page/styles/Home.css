@@ -1,0 +1,680 @@
+footer {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.MainPage {
+    width: 100vw;
+}
+
+footer {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}
+
+.socialmedia a {
+    margin: 0 5px;
+}
+
+.socialmedia svg {
+    height: 24px;
+    width: 24px;
+}
+
+
+
+@media (max-width: 768px) {
+    .socialmedia {
+        width: 140px;
+    }
+
+    .socialmedia svg {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: arial;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: arial;
+    position: relative;
+    overflow-x: hidden;
+    /* height: 320vh; */
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.FSECTION {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(252, 252, 252);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.div-links {
+    flex: 1;
+    max-width: 600px;
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.LogoDiv {
+    margin-left: 10px;
+}
+
+.div-links>a {
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.4 s;
+}
+
+.div-links>a:hover {
+    color: rgba(115, 0, 197, 0.8);
+}
+
+.div-links>a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    background-color: #8F00FF;
+    left: 0%;
+    bottom: -8px;
+    z-index: 10;
+}
+
+.div-links>a:hover::after {
+    width: 100%;
+    transition: all 0.9s;
+}
+
+.AccountSet {
+    margin-right: 20px;
+}
+
+.AccountSet>button {
+    margin: 0 20px;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 20px;
+    background-color: #8F00FF;
+    color: white;
+    font-size: 1.05rem;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.AccountSet>button:hover {
+    opacity: 0.7;
+    color: #FFFFFF;
+}
+
+
+.AccountSet>a {
+    font-weight: bold;
+    color: #8F00FF;
+    transition: all 0.5s ease;
+}
+
+.AccountSet>a:hover {
+    color: #c982ff;
+}
+
+.HeadDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.HeadDiv>h1 {
+    font-size: 4rem;
+    max-width: 700px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.HeadDiv>h1>span {
+    color: #8F00FF;
+    font-weight: 700;
+
+}
+
+.Circle {
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #8F00FF;
+    filter: blur(80px);
+}
+
+.fCrcle {
+    top: 30%;
+    right: 3%;
+    animation: FC 4.7s infinite ease-in-out;
+}
+
+@keyframes FC {
+    0% {
+        transform: translateY(0px);
+    }
+
+    25% {
+        transform: translateY(-50px);
+    }
+
+    75% {
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.sCrcle {
+    bottom: 20%;
+    left: 5%;
+    animation: FC 4.7s infinite ease-in-out;
+}
+
+.DisplayMiddle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.GlassDiv {
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(19.5px);
+    -webkit-backdrop-filter: blur(19.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.GlassDiv>p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #8F00FF;
+}
+
+.FG {
+    top: 2%;
+    right: 55%;
+    z-index: 3;
+
+    animation: FG 20s infinite ease-in-out;
+}
+
+.SG {
+    top: 7%;
+    left: 55%;
+    z-index: 10;
+    animation: SG 20s infinite ease-in-out;
+
+}
+
+.TG {
+    bottom: 3%;
+    left: 43%;
+    z-index: 6;
+    animation: TG 20s infinite ease-in-out;
+
+}
+
+@keyframes TG {
+    0% {
+        transform: translate(0px, 0px);
+        z-index: 6;
+    }
+
+    33% {
+        transform: translate(-210px, -223px);
+        z-index: 3;
+
+    }
+
+    66% {
+        transform: translate(186px, -200px);
+        z-index: 10;
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+        z-index: 6;
+    }
+}
+
+@keyframes SG {
+    0% {
+        transform: translate(0px, 0px);
+        z-index: 10;
+    }
+
+    33% {
+        transform: translate(-185px, 200px);
+        z-index: 6;
+
+    }
+
+    66% {
+        transform: translate(-400px, -30px);
+        z-index: 3;
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+        z-index: 10;
+    }
+}
+
+@keyframes FG {
+    0% {
+        transform: translate(0px, 0px);
+        z-index: 3;
+    }
+
+    33% {
+        transform: translate(390px, 20px);
+        z-index: 10;
+    }
+
+    66% {
+        transform: translate(210px, 220px);
+        z-index: 6;
+
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+        z-index: 3;
+    }
+}
+
+.SSection {
+    width: 100vw;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #ffffff, #8F00FF 50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SSection>h2 {
+    margin-top: 10rem;
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 500;
+    max-width: 25ch;
+}
+
+.SSection>h2>span {
+    font-weight: 700;
+    color: #8F00FF;
+}
+
+.TextDiscript>h3>span {
+    font-weight: 700;
+    color: #3a0066;
+}
+
+.GridDisplay {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10rem;
+    margin: 1rem;
+    margin-top: 5rem;
+    column-gap: 5rem;
+}
+
+.GridDisplay>div {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 1rem 0.7rem;
+
+}
+
+.GridDisplay>div>img {
+    width: 500px;
+    border-radius: 2rem;
+}
+
+.TextDiscript {
+    width: 50ch;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.TextDiscript>h3 {
+    color: #171717;
+    font-size: 1.8rem;
+    padding: 0 1rem;
+    font-weight: 500;
+}
+
+.TextDiscript>p {
+    color: #727272;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+}
+
+.P {
+    margin-right: 10rem;
+}
+
+.P>img {
+    order: 1;
+}
+
+.IMP {
+    margin-left: 10rem;
+}
+
+.TSection {
+    height: 100vh;
+    padding-top: 20vh;
+    background-image: linear-gradient(to bottom, #8F00FF 20%, #ffffff);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TSection>h3 {
+    font-weight: 500;
+    font-size: 2.3rem;
+    color: #ffffff;
+    width: 30ch;
+}
+
+.TSection>h3>span {
+    color: #2f0053;
+    font-weight: 700;
+}
+
+.JoiningDIV {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: max-content;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.JoiningDIV>div {
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;
+
+}
+
+.JoiningDIV>.S {
+    margin-top: 50px;
+}
+
+.JoiningDIV>div>h3 {
+    width: 20ch;
+    color: #8F00FF;
+}
+
+.navbar>.Menu {
+    display: none;
+}
+
+.JoiningDIV>div>button {
+    padding: 0.9rem 1.4rem;
+    border: none;
+    border-radius: 12rem;
+    font-size: 1.07rem;
+    background-color: #8F00FF;
+    color: white;
+    font-weight: 500;
+    margin-top: 2rem;
+    transition: all 0.5s ease;
+}
+
+.S {
+    margin-top: 7rem;
+
+}
+
+.JoiningDIV>.S>button {
+    background-color: #fff;
+    color: #8F00FF;
+    border-color: #9000ff;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+.JoiningDIV>div>button:hover {
+    background-color: #b85aff;
+}
+
+.JoiningDIV>.S>button:hover {
+    background-color: #b85aff;
+    color: white;
+
+}
+
+
+@media only screen and (max-width:1000px) {
+
+    .TSection,
+    .FSECTION,
+    .DisplayMiddle {
+        height: fit-content;
+    }
+
+    .TSection {
+        padding-top: 30px;
+    }
+
+    .sCrcle {
+        left: 1px;
+    }
+
+    .fCrcle {
+        right: 1px;
+    }
+
+    .GridDisplay>div {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .P>img {
+        order: unset;
+    }
+
+    .DisplayMiddle {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .GlassDiv {
+        position: static;
+        animation: none;
+        margin: 20px 20px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .Circle {
+        display: none;
+    }
+
+    .JoiningDIV {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .JoiningDIV>div {
+        margin: 20px 20px;
+    }
+
+    .div-links {
+        margin: 0 10px;
+    }
+
+    .AccountSet {
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width:710px) {
+
+    .div-links,
+    .AccountSet {
+        display: none;
+    }
+
+    .navbar>.Menu {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .navbar>.Menu {
+        display: contents;
+        color: #171717;
+    }
+}
+
+@media only screen and (max-width:564px) {
+    body {
+        height: fit-content;
+    }
+
+    .FSECTION>.HeadDiv>h1 {
+        font-size: 2rem;
+        margin: 0 10px;
+    }
+
+    .SSection {
+        margin-top: 5rem;
+    }
+
+    .SSection>h2 {
+        font-size: 2rem;
+        margin: 0 5px;
+    }
+
+
+    .TSection>h3 {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+
+    .DisplayMiddle {
+        position: static;
+    }
+
+    .GlassDiv {
+        position: static;
+        height: 10rem;
+        padding: 1rem 0;
+    }
+
+    .GridDisplay>div>img,
+    .GridDisplay>div>.TextDiscript {
+        width: 90%;
+    }
+
+    .GridDisplay {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .TextDiscript>p {
+        width: 100%;
+    }
+
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import "./styles/TSection.css"
+import "./styles/Home.css"
 const TSection = () => {
     return (<>
         <section className='TSection'>

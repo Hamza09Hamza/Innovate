@@ -1,5 +1,5 @@
 import React from 'react';
-import "./styles/SSection.css"
+import "./styles/Home.css"
 import Collabjpg from "./JPG/EditedCollab.jpg"
 import Growthjpg from "./JPG/EditedGrowth.jpg"
 import workHomejpg from "./JPG/EditedworkHome.jpg"

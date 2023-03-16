@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../../Logo';
-import "./styles/FSection.css"
+import "./styles/Home.css"
 import Circle from '../../Circles';
 import CollabSVG from './SVG/Collab';
 import GrowthSVG from './SVG/Growth';
@@ -26,6 +26,7 @@ const FSection = () => {
                         What's new
                     </a>
                 </div>
+
                 <div className='AccountSet'>
                     <a className="LogIn" href='/Login'>
                         Log In
@@ -34,6 +35,7 @@ const FSection = () => {
                         Sign up
                     </button>
                 </div>
+
             </div>
             <div className='HeadDiv'>
                 <h1>
